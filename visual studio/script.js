@@ -3,5 +3,5 @@ function submitDate() {
     var dob=document.getElementById('dob').Value
     console.log(name+ "" +dob)
     var output=document.getElementById('output');
-    output.innerText 
+    output.innerText="Student Name : ${name},DOB: ${DOB}" 
 }
